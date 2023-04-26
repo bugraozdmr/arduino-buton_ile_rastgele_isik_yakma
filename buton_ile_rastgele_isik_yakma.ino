@@ -14,27 +14,34 @@ void loop() {
     //burdan digitalRead cunku digital girislerde islem var...
     int rand_int = random(1,5);   //1,2,3,4 degerleri donecek
     
-    Serial.println(rand_int);
     switch(rand_int){
       case 1:
+      Serial.print(rand_int);
+      Serial.println(".lamba");
       digitalWrite(3,1);
       digitalWrite(4,0);
       digitalWrite(5,0);
       digitalWrite(6,0);
       break;
       case 2:
+      Serial.print(rand_int);
+      Serial.println(".lamba");
       digitalWrite(3,0);
       digitalWrite(4,1);
       digitalWrite(5,0);
       digitalWrite(6,0);
       break;
       case 3:
+      Serial.print(rand_int);
+      Serial.println(".lamba");
       digitalWrite(3,0);
       digitalWrite(4,0);
       digitalWrite(5,1);
       digitalWrite(6,0);
       break;
       case 4:
+      Serial.print(rand_int);
+      Serial.println(".lamba");
       digitalWrite(3,0);
       digitalWrite(4,0);
       digitalWrite(5,0);
